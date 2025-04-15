@@ -118,8 +118,8 @@ r_e("sign_up_form").addEventListener("submit", async (e) => {
     // User creation successful
     alert(`Account ${auth.currentUser.email} has been created`);
     //show the currently signed up/signed in user's info
-    const infoBox = document.getElementById("navbar-user-info");
-    infoBox.innerHTML = `
+    const informationBox = document.getElementById("navbar-user-info");
+    informationBox.innerHTML = `
     <div>
       <span class="has-text-weight-semibold">${first_name} ${last_name}</span><br>
     </div>
